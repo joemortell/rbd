@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+
+header
+{
+	top:		auto;
+	position: 	static;
+}
+
+nav a
+{
+	background: #EEE;
+	display: 	block;
+	margin: 	15px;
+	padding: 	3px;
+	border-radius:5px;
+	text-align:  center;
+}
+
+.page
+{
+	margin-top:	0px;
+}
+
+.logo-main
+{
+	height:			69px;
+	width:			180px;
+	background:		url(../img/logo-medium.png) 0 0 no-repeat;
+}
+
+#main-text 
+{
+	width:			auto;
+}
+
+.iphone
+{
+	display:		none;
+}

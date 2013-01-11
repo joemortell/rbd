@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+		<title>Rare Breed Digital</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/3.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen_styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen_layout_large.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:600px)" href="css/screen_layout_small.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:601px) and (max-width:800px)" href="css/screen_layout_medium.css" />
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="page home clearfix">
+		
+		<img src="img/iphone-left.png" alt="iPhone App Design" class="iphone left" />
+		<img src="img/iphone-right.png" alt="iPhone App Design" class="iphone right" />
+			
+			<div id="main-text">
+				<div class="logo-main"></div>
+				<h1>A Creative Digital Agency</h1>
+				<h3>Rare Breed Digital London is one of the leading iPhone App Developers in the UK.
+				We have vast experience in working across all platforms and delivering first class apps.</h3>
+				
+				<p>Out Clients include</p>
+				<div id="clients-box">
+					<img src="img/philips.png" alt="philips"/>
+					<img src="img/butlins.png" alt="butlins"/>
+					<img src="img/justgiving.png" alt="justgiving"/>
+				</div>
+				
+				<a href="#" class="big red">Get a Quote</a>
+				<a href="#" class="big view-projects">View our Projects</a>
+			</div>
+		
+		</div>
+		
+		<header>
+		
+			<nav>
+				<a href="About">About</a>
+				<a href="About">Apps</a>
+				<a href="About">Web</a>
+				<a href="About">Design</a>
+				<a href="About">Team</a>
+				<a href="About">Contact</a>
+			</nav>
+			<a href="http://www.twitter.com" alt="Rare Breed Twitter Page" class="twitter"></a>
+			<a href="http://www.facebook.com" alt="Rare Breed Facebook Page" class="facebook"></a>
+		</header>
+		
+		<footer>
+			&copy; Company 
+		</footer>
+		
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript">
+		
+			$(window).load(function() {
+			  $(".iphone.left").animate({left: '-220px'}, 500, 'swing');
+			  $(".iphone.right").animate({right: '-140px'}, 500, 'swing');
+			  $(".page").animate({opacity: '1'}, 500);
+			  
+			  $(window).scroll(function() {
+				    $('header').animate({opacity: '0.9'}, 500);
+				});
+			  
+			});
+
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+a.big.red
+{
+	background: 	#af1d20; /* Old browsers */
+	background: 	-moz-linear-gradient(top,  #af1d20 0%, #cc4749 100%); /* FF3.6+ */
+	background: 	-webkit-gradient(linear, left top, left bottom, color-stop(0%,#af1d20), color-stop(100%,#cc4749)); /* Chrome,Safari4+ */
+	background: 	-webkit-linear-gradient(top,  #af1d20 0%,#cc4749 100%); /* Chrome10+,Safari5.1+ */
+	background: 	-o-linear-gradient(top,  #af1d20 0%,#cc4749 100%); /* Opera 11.10+ */
+	background: 	-ms-linear-gradient(top,  #af1d20 0%,#cc4749 100%); /* IE10+ */
+	background: 	linear-gradient(to bottom,  #af1d20 0%,#cc4749 100%); /* W3C */
+	filter: 		progid:DXImageTransform.Microsoft.gradient( startColorstr='#af1d20', endColorstr='#cc4749',GradientType=0 ); /* IE6-9 */
+	-moz-box-shadow:0px 2px 2px #741719 inset;
+	-webkit-box-shadow:0px 2px 2px #741719 inset;
+	box-shadow:		0px 2px 2px #741719 inset;
+	-moz-text-shadow:0px 2px 0px #741719;
+	-webkit-text-shadow:0px 2px 0px #741719;
+	text-shadow:	0px 2px 0px #741719;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:	5px;
+}
+
+a.big.red:hover
+{
+	background: 	#c3393b; /* Old browsers */
+	background: 	-moz-linear-gradient(top,  #c3393b 0%, #eb5659 100%); /* FF3.6+ */
+	background: 	-webkit-gradient(linear, left top, left bottom, color-stop(0%,#c3393b), color-stop(100%,#eb5659)); /* Chrome,Safari4+ */
+	background: 	-webkit-linear-gradient(top,  #c3393b 0%,#eb5659 100%); /* Chrome10+,Safari5.1+ */
+	background: 	-o-linear-gradient(top,  #c3393b 0%,#eb5659 100%); /* Opera 11.10+ */
+	background: 	-ms-linear-gradient(top,  #c3393b 0%,#eb5659 100%); /* IE10+ */
+	background: 	linear-gradient(to bottom,  #c3393b 0%,#eb5659 100%); /* W3C */
+	filter: 		progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3393b', endColorstr='#eb5659',GradientType=0 ); /* IE6-9 */
+	-moz-text-shadow:	0px 2px 0px #8F2225;
+	-webkit-text-shadow:	0px 2px 0px #8F2225;
+	text-shadow:	0px 2px 0px #8F2225;
+}
+
+header
+{
+	-moz-box-shadow: 	0px 0px 10px #CCC;
+	-webkit-box-shadow: 0px 0px 10px #CCC;
+	box-shadow: 		0px 0px 10px #CCC;
+}
